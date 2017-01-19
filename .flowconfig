@@ -1,0 +1,15 @@
+[ignore]
+.*/node_modules/.*
+.*/dist/.*
+
+
+[libs]
+./src/flow-lib
+
+
+[options]
+module.name_mapper='^handlebars$' -> '../node_modules/handlebars/lib/index.js'
+
+
+[include]
+./src/index.js
